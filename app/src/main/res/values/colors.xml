@@ -7,4 +7,5 @@
     <color name="branco">#FFFF</color>
     <color name="cinza">#C0C0C0</color>
     <color name="cinza_escuro">#808080</color>
+    <color name="cinzaclaro">#C0CCDA</color>
 </resources>
