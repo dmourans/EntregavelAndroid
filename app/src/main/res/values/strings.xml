@@ -2,4 +2,19 @@
     <string name="app_name">Rango da Turma de Mobile</string>
     <string name="registrar">Registrar</string>
     <string name="login">Login</string>
+    <string name="receitas">Receitas</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="texto_grande_receita">Whoever appeals to the law against his fellow man is either a fool or a coward Whoever cannot take care of himself without that law is both For a wounded man will shall say to his assailant If I live, I will kill you. If I die, you are forgiven Such is the rule of honor Broken the paradigm, an example must be set Invoke the siren\'s song and sign the death warrant This what has been wrought for 30 pieces of silver The tongues of men and angels bought by a beloved betrayer I am the result, what\'s better left unspoken Violence begins to mend what was broken You\'ve been talking, I\'ve been all ears Words meant to dwell in darkness shall never see the light of day Words can be broken, so can bones Execute the mandate Mouth full of dirt Your name…</string>
+    <string name="pratos_principais">Pratos Principais</string>
+    <string name="salvar_perfil">Salvar Perfil</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+    <string name="nova_senha">Nova Senha</string>
+    <string name="email">Email</string>
+    <string name="nome">Nome</string>
+    <string name="nome_vazio">Informe seu nome.</string>
+    <string name="email_nao_valid">Você precisa inserir um e-mail valido</string>
+    <string name="senha6Digit">Sua senha precisa ter ao menos 6 digitos</string>
+    <string name="confirSenha6Digit">Sua confirmação de senha precisa ter ao menos 6 digitos</string>
+    <string name="senha_diferente">As senhas não conferem</string>
+    <string name="perfil">Perfil</string>
 </resources>
