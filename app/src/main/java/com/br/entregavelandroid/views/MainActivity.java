@@ -1,8 +1,10 @@
-package com.br.entregavelandroid;
+package com.br.entregavelandroid.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.br.entregavelandroid.R;
 
 public class MainActivity extends AppCompatActivity {
 
