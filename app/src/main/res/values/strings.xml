@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Entregavel Android</string>
+    <string name="app_name">Rango da Turma de Mobile</string>
+    <string name="registrar">Registrar</string>
+    <string name="login">Login</string>
 </resources>
