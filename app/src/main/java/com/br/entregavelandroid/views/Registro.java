@@ -64,7 +64,7 @@ public class Registro extends AppCompatActivity {
 
         //validação para nome
         if (nome.isEmpty()){
-            inputNome.setError("Informe seu nome.");
+            inputNome.setError(getString(R.string.nome_vazio));
             eValido = false;
         } else {
             inputNome.setErrorEnabled(false);
@@ -72,7 +72,7 @@ public class Registro extends AppCompatActivity {
 
         //validação para email, ou vazio ou com metodo criado
         if (!validarEmail(email) || email.isEmpty()){
-            inputEmail.setError("Você precisa inserir um e-mail valido");
+            inputEmail.setError(getString(R.string.email_nao_valid));
             eValido = false;
         } else {
             inputEmail.setErrorEnabled(false);
@@ -81,7 +81,7 @@ public class Registro extends AppCompatActivity {
 
         //validar senha via metodo
         if (!validarSenha(senha)){
-            inputSenha.setError("Sua senha precisa ter ao menos 6 digitos");
+            inputSenha.setError(getString(R.string.senha6Digit));
             eValido = false;
         } else {
             inputSenha.setErrorEnabled(false);
@@ -90,7 +90,7 @@ public class Registro extends AppCompatActivity {
 
         //validar confirmação de senha via metodo
         if (!validarSenha(confirmarSenha)){
-            inputSenhaConfirma.setError("Sua confirmação de senha precisa ter ao menos 6 digitos");
+            inputSenhaConfirma.setError(getString(R.string.confirSenha6Digit));
             eValido = false;
         } else {
             inputSenhaConfirma.setErrorEnabled(false);
@@ -104,8 +104,8 @@ public class Registro extends AppCompatActivity {
                 setToBundle(usuario);
 
             } else {
-                inputSenha.setError("As senhas não conferem");
-                inputSenhaConfirma.setError("As senhas não conferem");
+                inputSenha.setError(getString(R.string.senha_diferente));
+                inputSenhaConfirma.setError(getString(R.string.senha_diferente));
 
                 inputNome.setErrorEnabled(false);
                 inputEmail.setErrorEnabled(false);
