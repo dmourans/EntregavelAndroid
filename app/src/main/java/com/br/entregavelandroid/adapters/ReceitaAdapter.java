@@ -40,7 +40,7 @@ public class ReceitaAdapter extends RecyclerView.Adapter<ReceitaAdapter.ViewHold
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 listener.onClick(receita);
             }
         });
