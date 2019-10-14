@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity implements RestauranteOnClic
         listaReceitas.add(new Receita("Especial de Carne", R.drawable.mad1, getString(R.string.texto_grande_receita)));
         listaReceitas.add(new Receita("Especial de Frango", R.drawable.mad2, getString(R.string.texto_grande_receita)));
         listaReceitas.add(new Receita("Especial de Bacon", R.drawable.mad3, getString(R.string.texto_grande_receita)));
-        listaReceitas.add(new Receita("Especial de Ovo", R.drawable.mad3, getString(R.string.texto_grande_receita)));
-        listaReceitas.add(new Receita("Especial de Peixe", R.drawable.mad3, getString(R.string.texto_grande_receita)));
+        listaReceitas.add(new Receita("Especial de Ovo", R.drawable.bigmac, getString(R.string.texto_grande_receita)));
+        listaReceitas.add(new Receita("Especial de Peixe", R.drawable.whopperbacon, getString(R.string.texto_grande_receita)));
         return listaReceitas;
     }
 
